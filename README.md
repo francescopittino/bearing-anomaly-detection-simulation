@@ -4,7 +4,7 @@ This repository simulates an anomaly detection pipeline using the NASA Bearing d
 
 #[EN/IT]
 
-#[EN]
+# [EN]
 # What does it do:
 - Simulates the streaming of data from a sensor by calculating the Root Mean Square for every test file (1-second snapshots every ten minutes) and publishing it to an MQTT Topic.
 - Simulates the detection of anomalies using an autoencoder model that is trained on the initial values from the sensor and is then used to classify anomalies based on the model's loss value.
@@ -18,7 +18,7 @@ This repository simulates an anomaly detection pipeline using the NASA Bearing d
 There is a description at the beginning of every file that explains what it is used for in more detail.
 
 
-#[IT]
+# [IT]
 # Cosa fa:
 - Simula lo streaming di dati da un sensore, calcolando la RMS per ogni file di test (lunghi 1 secondo di misurazioni ogni 10 minuti) e pubblicandolo sul topic MQTT.
 - Simula il riconoscimento di anomalie usando un autoencoder addestrato sui valori iniziali trasmessi, poi usato per classificare le anomalie in base al valore di perdita.
